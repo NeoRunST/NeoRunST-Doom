@@ -241,6 +241,9 @@ void I_InitTimidityConfig(void);
 extern sound_module_t DG_sound_module;
 extern music_module_t DG_music_module;
 #endif
+#ifdef NEP_SOUND
+extern sound_module_t nep_sound_module;
+#endif
 extern sound_module_t sound_pcsound_module;
 extern music_module_t music_opl_module;
 
