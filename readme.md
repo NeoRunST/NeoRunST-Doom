@@ -10,8 +10,7 @@ GPL 只污染本仓库 (DOOM 上游衍生), 不影响 NeoRunST 内核与 SDK
 
 ## 运行
 
-需要 **2026-11-15 之后** 编译的内核 (syscall 45/46/47 + 4MB 镜像上限
-+ 16MB 用户堆):
+需要 **v0.18.0 之后** 版本的内核
 
 1. 新内核 `NeoRunST-CustomOS\kernel\bin\runstknl.nep` 替换 VM 磁盘里
    `ZZ://runst/system/runstknl.nep`
@@ -72,7 +71,7 @@ sh doombuild.sh        # Git Bash / MSYS 下运行
 
 ## 已知限制
 
-- 无声音 (内核无音频混音出口给 NEP)
+- 无音乐 (只有音效)
 - 软件渲染: 每帧 1MB blit + WM 全窗口重绘, 帧率受限于 VESA 写入速度
 - 存档/配置写在程序"当前目录"相对路径 (无盘符前缀), fopen 会失败 —
   存档功能不可用, 不影响游戏本体
