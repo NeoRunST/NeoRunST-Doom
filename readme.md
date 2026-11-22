@@ -2,7 +2,7 @@
 
 [DOOMGENERIC](https://github.com/ozkl/doomgeneric) 移植到 NeoRunST 的 NEP
 用户程序格式。上游代码 (doomgeneric + Chocolate DOOM 内核) 遵循其原始
-许可: **GPL-3.0** — 本仓库整体按 GPL-3.0 发布, 仅 `dg_nep.c` /
+许可: **GPL-2.0** — 本仓库整体按 GPL-2.0 发布, 仅 `dg_nep.c` /
 `doombuild.sh` / `m_misc.c` 的少量标注修改属于 NeoRunST 移植层。
 
 GPL 只污染本仓库 (DOOM 上游衍生), 不影响 NeoRunST 内核与 SDK
