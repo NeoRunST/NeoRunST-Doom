@@ -10,7 +10,7 @@ GPL 只污染本仓库 (DOOM 上游衍生), 不影响 NeoRunST 内核与 SDK
 
 ## 运行
 
-需要 **v0.18.0 之后** 版本的内核
+需要 **v0.17.0 之后** 版本的内核
 
 1. 新内核 `NeoRunST-CustomOS\kernel\bin\runstknl.nep` 替换 VM 磁盘里
    `ZZ://runst/system/runstknl.nep`
